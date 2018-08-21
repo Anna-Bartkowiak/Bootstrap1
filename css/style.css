@@ -1,0 +1,214 @@
+.my-jumbotron {
+    width: 100%;
+    min-height: 410px;
+    height: 70vh;
+    background-image: url(https://images.unsplash.com/photo-1518117648702-79b0cc9ff9e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b5298f6ebc44d397e6b514fac976443&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.my-jumbotron-slogan {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.my-jumbotron-text {
+    letter-spacing: 1rem;
+}
+
+.my-mission-text::after,
+.my-portfolio-text::after,
+.my-team-text::after,
+.my-contact-text::after { 
+    content: '';
+    display: block;
+    border: 1px solid #D49157; 
+    width: 150px;
+    margin: 30px auto; 
+}
+
+.my-mission-background-icon { 
+    width: 100px;
+    height: 100px;
+    border: 1px solid #D49157; 
+    border-radius: 50%; padding: 0.4rem;
+    position: relative; 
+}
+
+.my-mission-icon {
+    font-size: 2rem;
+    background-image: linear-gradient(to right bottom,#FBCF9C, #D49157);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.my-section-numbers {
+    background-image: linear-gradient(to right bottom,#FBCF9C, #D49157);
+}
+
+/* .my-portfolio-text::after { 
+    content: '';
+    display: block;
+    border: 1px solid #D49157; 
+    width: 200px;
+    margin: 30px auto; 
+} */
+
+.my-section-portfolio {
+    max-width: 1440px;;
+}
+
+.my-portfolio-box {
+    position: relative;
+    max-width: 700px;
+}
+
+.my-portfolio-box-text {
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-bottom: 1.2rem; 
+    letter-spacing: .2rem;
+}
+
+.my-portfolio-box-img {
+    max-width: 700px;
+}
+
+.my-portfolio-img-overlay::after{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    content: "";
+    z-index: 0;
+    background: none repeat rgba(87,154,212,.7); 
+    /* opacity: .6; */
+}
+
+.my-portfolio-img-group {
+    height: 150px;
+    background-position: center;
+    background-size: contain;
+    transition: all .3s;
+}
+
+.my-portfolio-img-group:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.separator {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.separator::before, 
+.separator::after { 
+    content: '';
+    position: absolute;
+}
+
+.separator::before {
+    background: rgba(87,154,212,.7);
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 100% 100%;
+    transform: rotate(-1deg);
+}
+
+.orange-text {
+    background-image: linear-gradient(to right bottom,#FBCF9C, #D49157);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fa-quote-right {
+    background-image: linear-gradient(to right bottom,#FBCF9C, #D49157);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+
+.my-section-price {
+    background-image: linear-gradient(to right bottom,#FBCF9C, #D49157);
+}
+
+.my-card-main {
+    border: 2px solid rgba(87,154,212,.7);
+    transition: all .3s;
+}
+
+.my-card-main:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 35px 0 rgba(87,154,212,.7);
+}
+
+.my-team-img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.my-team-name {
+    font-size: 1rem;
+}
+
+.my-team-position {
+    font-size: .8rem;
+}
+
+.my-contact-box { 
+    max-width: 700px; 
+    position: relative;
+}
+
+.my-contact-box-img { 
+    max-width: 700px;
+}
+
+.my-contact-img-overlay:after{ position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    z-index: 0;
+    background: none repeat rgba(87,154,212,.7);
+    }
+
+    .my-main-color {
+        color: #ffc107;
+    }
+
+    .my-main-color:hover {
+        color: #FBCF9C;
+    }
+
+    .my-fab-size {
+        font-size: 1.3rem;
+    }
+
+    .my-footer-header::after {
+        content: '';
+        display: block;
+        border: 1px solid #ffc107; 
+        width: 100%;
+        margin: 5px 0 10px 0;
+    }
+
+    .my-sm-font-size {
+        font-size: 14px;
+    }
