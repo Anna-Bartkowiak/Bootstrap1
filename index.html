@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>We create websites in Bootstrap!</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <header class="header">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <div class="container">
                 <span class="navbar-brand mb-0">Bootstrap 4.0.0</span>
 
@@ -29,13 +29,13 @@
                             <a href="#" class="nav-link text-uppercase">home</a>
                         </li>
                         <li class="nav-item mr-2">
-                            <a href="#" class="nav-link text-uppercase">about</a>
+                            <a href="#about" class="nav-link text-uppercase">about</a>
                         </li>
                         <li class="nav-item mr-2">
-                            <a href="#" class="nav-link text-uppercase">team</a>
+                            <a href="#team" class="nav-link text-uppercase">team</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-uppercase">contact</a>
+                            <a href="#contact" class="nav-link text-uppercase">contact</a>
                         </li>
                     </ul>
 
@@ -63,7 +63,7 @@
         </div>
     </section>
 
-    <section class="my-section-mission">
+    <section class="my-section-mission" id="about">
         <div class="container">
             <div class="row my-5">
                 <div class="col-sm-12 text-center">
@@ -330,10 +330,10 @@
         </div>
     </section>
 
-    <section class="my-section-team text-muted">
+    <section class="my-section-team text-muted" id="team">
         <div class="container my-5">
-            <div class="text-center py-4">
-                <h2 class="text-uppercase my-team-text">Lorem ipsum dolor</h2>
+            <div class="text-center py-5">
+                <h2 class="text-uppercase my-team-text">Our team</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad iure, molestias sed earum accusantium saepe vero exercitationem porro cumque omnis, velit, ipsam nobis dolor nulla nam fugit perferendis veniam asperiores?</p>
             </div>
 
@@ -379,9 +379,9 @@
         <div class="separator"></div>
     </section>
 
-    <section class="my-section-contact text-muted">
+    <section class="my-section-contact text-muted" id="contact">
         <div class="container my-5">
-            <div class="text-center">
+            <div class="text-center py-5">
                 <p class="h3 text-uppercase my-contact-text">contact</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
@@ -416,16 +416,16 @@
                 <div class="col-md-6 col-lg-3 d-flex flex-column">
                     <p class="h5 text-uppercase my-footer-header">najnowsze wpisy</p>
                     <ul class="list-unstyled">
-                        <li class="my-sm-font-size"><a href="#" class="my-main-color">Lorem ipsum dolor</a></li>
-                        <li class="my-sm-font-size"><a href="#" class="my-main-color">Lorem ipsum dolor</a></li>
-                        <li class="my-sm-font-size"><a href="#" class="my-main-color">Lorem ipsum dolor</a></li>
-                        <li class="my-sm-font-size"><a href="#" class="my-main-color">Lorem ipsum dolor</a></li>
+                        <li class="my-sm-font-size"><a href="https://javascript30.com/" class="my-main-color" target="_blank">30 Day Vanilla JS</a></li>
+                        <li class="my-sm-font-size"><a href="https://git-scm.com/book/en/v2" class="my-main-color" target="_blank">Git documentation</a></li>
+                        <li class="my-sm-font-size"><a href="https://docs.emmet.io/cheat-sheet/" class="my-main-color" target="_blank">Emmet cheat-sheet</a></li>
+                        <li class="my-sm-font-size"><a href="http://getbootstrap.com/docs/4.1/getting-started/introduction/" class="my-main-color" target="_blank">Bootstrap 4.1 documentation</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-6 col-lg-3 d-flex flex-column my-sm-font-size">
                     <p class="h5 text-uppercase my-footer-header">about us</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, nam. Lorem ipsum dolor sit.</p>
+                    <p>Hi, I'm Ania and I want to grow as a front-end developer. I am meticulous, empathetic and I like puzzle :) I just keep elevating, just upgrading.</p>
                 </div>
 
                 <div class="col-md-6 col-lg-3 d-flex flex-column">
@@ -443,26 +443,26 @@
 
                     <div class="row my-footer-social-icon d-flex flex-wrap my-3">
                         <div class="col-4 col-lg-2 pb-3">
-                            <a href="#" class="text-warning">
-                                <i class="fab fa-youtube my-fab-size"></i>
+                            <a href="https://codepen.io/AnnCode/" class="text-warning" target="_blank">
+                                <i class="fab fa-codepen my-fab-size"></i>
                             </a>
                         </div>
 
                         <div class="col-4 col-lg-2 pb-3">
-                            <a href="#" class="text-warning">
-                                <i class="fab fa-google-plus my-fab-size"></i>
+                            <a href="http://github.com/Anna-Bartkowiak" class="text-warning" target="_blank">
+                                <i class="fab fa-github my-fab-size"></i>
+                            </a>
+                        </div>
+
+                        <div class="col-4 col-lg-2 pb-3">
+                            <a href="http://www.linkedin.com/in/anna-bartkowiak-3b36a1b1" class="text-warning" target="_blank">
+                                <i class="fab fa-linkedin my-fab-size"></i>
                             </a>
                         </div>
 
                         <div class="col-4 col-lg-2 pb-3">
                             <a href="#" class="text-warning">
                                 <i class="fab fa-facebook my-fab-size"></i>
-                            </a>
-                        </div>
-
-                        <div class="col-4 col-lg-2 pb-3">
-                            <a href="#" class="text-warning">
-                                <i class="fab fa-github my-fab-size"></i>
                             </a>
                         </div>
 

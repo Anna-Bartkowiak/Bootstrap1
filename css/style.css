@@ -1,5 +1,6 @@
 .my-jumbotron {
     width: 100%;
+    margin-top: 3.5rem;
     min-height: 410px;
     height: 70vh;
     background-image: url(https://images.unsplash.com/photo-1518117648702-79b0cc9ff9e6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2b5298f6ebc44d397e6b514fac976443&auto=format&fit=crop&w=1050&q=80);
@@ -24,6 +25,10 @@
     border: 1px solid #D49157; 
     width: 150px;
     margin: 30px auto; 
+}
+
+.my-mission-text {
+    margin-top: 3.5rem;
 }
 
 .my-mission-background-icon { 
@@ -178,7 +183,8 @@
     max-width: 700px;
 }
 
-.my-contact-img-overlay:after{ position: absolute;
+.my-contact-img-overlay:after { 
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -187,28 +193,28 @@
     content: "";
     z-index: 0;
     background: none repeat rgba(87,154,212,.7);
-    }
+}
 
-    .my-main-color {
-        color: #ffc107;
-    }
+.my-main-color {
+    color: #ffc107;
+}
 
-    .my-main-color:hover {
-        color: #FBCF9C;
-    }
+.my-main-color:hover {
+    color: #FBCF9C;
+}
 
-    .my-fab-size {
-        font-size: 1.3rem;
-    }
+.my-fab-size {
+    font-size: 1.3rem;
+}
 
-    .my-footer-header::after {
-        content: '';
-        display: block;
-        border: 1px solid #ffc107; 
-        width: 100%;
-        margin: 5px 0 10px 0;
-    }
+.my-footer-header::after {
+    content: '';
+    display: block;
+    border: 1px solid #ffc107; 
+    width: 100%;
+    margin: 5px 0 10px 0;
+}
 
-    .my-sm-font-size {
-        font-size: 14px;
-    }
+.my-sm-font-size {
+    font-size: 14px;
+}
